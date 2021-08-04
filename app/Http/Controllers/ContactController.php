@@ -17,6 +17,6 @@ class ContactController extends Controller
         $this->validate($request,Contact::$rules);
         $form = $request->all();
         Contact::create($form);
-        return view('thanks',$form);
+        return view('thanks');
     }
 }

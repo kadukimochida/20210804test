@@ -7,7 +7,6 @@
   <title>Document</title>
 </head>
 <body>
-  <p>{{$name}}さん</p>
   <p>お問い合わせありがとうございます。</p>
   <a href="/">トップへ戻る</a>
 </body>
